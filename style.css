@@ -1,5 +1,5 @@
 body {
-    background-image: url(http://parkresto.com/wp-content/themes/parkrestaurant/images/11onlinereservationpark.jpg);
+    background-image: url(background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,19 +11,22 @@ body {
     font-size: 55px;
 }
 
-
 .home {
     margin-top: 20%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
 }
 
 .header {
     background-color: white;
     opacity: 0.9;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
+
 }
 
 .panel {
-  width: 100%;
-  opacity: 0.9;
+    width: 100%;
+    opacity: 0.9;
 }

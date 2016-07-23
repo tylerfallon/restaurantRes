@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Tables Page</title>
-
-  <!-- Latest compiled and minified CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css" rel="stylesheet" integrity="sha384-0UBL8wxZ28kqJ8w8N8RUV0odBG5w8D/Y+rb+o7hr2F3dS9twlAE8S7VUtVSRe5cc" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/united/bootstrap.min.css" rel="stylesheet" integrity="sha384-0UBL8wxZ28kqJ8w8N8RUV0odBG5w8D/Y+rb+o7hr2F3dS9twlAE8S7VUtVSRe5cc" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-
-  <div class="container">
-    
-    <div class="jumbotron">
-      <h1 class="text-center"><span class="glyphicon glyphicon-cutlery"></span> Restaurant Reservations</h1>
-      <hr>
-      <h2 class="text-center"></h2>
-      <br>
-
-      <div class="text-center">
-        <a href="/tables"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
-        <a href="/reserve"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>    
-      </div>
-
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 home img-rounded">
+                
+                <!-- <span class="glyphicon glyphicon-cutlery"></span> -->
+                <img src="https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-99-64.png" >
+                <h1 class="text-center title">RESERVE</h1><br>
+                <div class="text-center">
+                    <a href="/tables">
+                        <button type="button" class="btn btn-lg btn-primary">view reservations</button>
+                    </a>
+      <!--               <br>
+                    <br> -->
+                    <a href="/reserve">
+                        <button type="button" class="btn btn-lg btn-danger">make reservation</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-
-    
-  </div>
-
-  
 </body>
+
 </html>

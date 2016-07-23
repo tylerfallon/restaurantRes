@@ -1,0 +1,29 @@
+body {
+    background-image: url(http://parkresto.com/wp-content/themes/parkrestaurant/images/11onlinereservationpark.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+}
+
+.title {
+    font-family: 'Poiret One', cursive;
+    font-size: 55px;
+}
+
+
+.home {
+    margin-top: 20%;
+}
+
+.header {
+    background-color: white;
+    opacity: 0.9;
+    padding: 20px;
+    text-align: center;
+}
+
+.panel {
+  width: 100%;
+  opacity: 0.9;
+}
